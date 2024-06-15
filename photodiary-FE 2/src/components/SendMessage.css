@@ -1,0 +1,53 @@
+/* SendMessage.css */
+.send-message {
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.send-message h1 {
+	text-align: center;
+}
+
+.send-message form {
+	display: flex;
+	flex-direction: column;
+}
+
+.send-message textarea {
+	height: 150px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.send-message button {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #1890ff;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.send-message .error, .send-message .success {
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.send-message .error {
+	background-color: #ff4d4f;
+	color: white;
+}
+
+.send-message .success {
+	background-color: #52c41a;
+	color: white;
+}

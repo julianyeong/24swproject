@@ -1,0 +1,156 @@
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#main {
+  flex: 3;
+  display: flex;
+}
+
+.container {
+  background-color: #f5f5f5;
+  padding: 40px;
+  width: 1440px;
+  height: 1080px;
+  text-align: center;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  flex: 1;
+  overflow-y: scroll; /* 항상 스크롤바를 표시합니다 */
+  scrollbar-gutter: stable; /* 스크롤바 위치를 고정하여 레이아웃 변경을 방지합니다 */
+  padding: 20px;
+}
+
+.scrollable-content {
+  max-height: 100%;
+  overflow-y: scroll; /* 항상 스크롤바를 표시합니다 */
+  scrollbar-gutter: stable; /* 스크롤바 위치를 고정하여 레이아웃 변경을 방지합니다 */
+}
+
+.post-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.post-table th, .post-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.post-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.post-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.post-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.post {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post .title h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.post .meta {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.post .meta .author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.post .image.featured img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.post footer {
+  margin-top: 20px;
+}
+
+/* #sidebar {
+  flex: 1;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;     
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  height: 3.5em;
+  left: 0;
+  line-height: 3.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  color:black;
+} */
+
+#intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#intro .logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.posts ul li {
+  margin-bottom: 10px;
+}
+
+.posts ul li article {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.posts ul li article .image img {
+  width: 100%;
+  border-radius: 10px;
+}

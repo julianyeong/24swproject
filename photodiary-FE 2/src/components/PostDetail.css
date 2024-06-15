@@ -1,0 +1,60 @@
+.container {
+	padding: 20px;
+}
+
+#wrapper {
+	/*max-width: 800px;*/
+	margin: 0 auto;
+}
+
+#main {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+	margin-bottom: 40px;
+}
+
+.post .title {
+	margin-bottom: 20px;
+}
+
+.post .title h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.post .meta {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.post .meta time {
+	margin-right: 20px;
+	color: #888;
+}
+
+.post .meta .author {
+	display: flex;
+	align-items: center;
+}
+
+.post .meta .author img {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.post .image {
+	margin-bottom: 20px;
+}
+
+.post .image img {
+	width: 100%;
+	border-radius: 10px;
+}

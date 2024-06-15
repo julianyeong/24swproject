@@ -1,0 +1,42 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4A90E2, #9013FE);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.photo-diary-container {
+  background-color: white;
+  padding: 40px;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 30px;
+}
+
+.edit-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.post {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.post-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

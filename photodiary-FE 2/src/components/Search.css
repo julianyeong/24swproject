@@ -1,0 +1,63 @@
+.search-container {
+  background-color: #f5f5f5;
+  padding: 40px;
+  width: 1100px;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 최상단 중앙에 위치시키기 위해 */
+  align-items: center;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: auto; /* 자동으로 조절되게 변경 */
+  position: relative;
+  top: 0; /* 상단에서 떨어진 거리 조정 */
+}
+
+.search-form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+.search-form button {
+  padding: 20px 20px; /* 버튼과 input 높이를 맞추기 위해 패딩을 조정 */
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px; /* 버튼과 input 사이에 간격 추가 */
+}
+
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px; /* 검색창과 결과 간의 거리 조정 */
+}
+
+.post {
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.post img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
